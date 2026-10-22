@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.5.0)
+project(smart_item_detector)
+set(CMAKE_CXX_STANDARD 17)
+add_library(onnxruntime SHARED IMPORTED)
+set_target_properties(onnxruntime PROPERTIES IMPORTED_LOCATION "${CMAKE_CURRENT_SOURCE_DIR}/../../../libs/${OHOS_ARCH}/libonnxruntime.so")
+add_library(detector SHARED detector.cpp)
+target_include_directories(detector PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/../../../../../native/onnxruntime/${OHOS_ARCH}/include")
+target_link_libraries(detector PUBLIC libace_napi.z.so libdl.so)

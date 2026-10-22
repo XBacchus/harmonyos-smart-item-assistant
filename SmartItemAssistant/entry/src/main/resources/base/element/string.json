@@ -1,0 +1,17 @@
+{
+  "string": [
+    {"name":"camera_reason","value":"用于拍摄物品照片并在设备上识别"},
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "识物助手"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "files": {
+    "models/yolov13n.onnx": {
+      "sha256": "72dd68ab5bbe51c9902142b575fea9f9b1e576307864ef95fce18612afe60ef0",
+      "bytes": 10288664
+    },
+    "SmartItemAssistant/entry/src/main/resources/rawfile/yolov13n.onnx": {
+      "sha256": "72dd68ab5bbe51c9902142b575fea9f9b1e576307864ef95fce18612afe60ef0",
+      "bytes": 10288664
+    },
+    "SmartItemAssistant/entry/src/main/resources/rawfile/demo-bus.jpg": {
+      "sha256": "c02019c4979c191eb739ddd944445ef408dad5679acab6fd520ef9d434bfbc63",
+      "bytes": 137419
+    },
+    "SmartItemAssistant/entry/libs/x86_64/libonnxruntime.so": {
+      "sha256": "80abf5a65b6f07977b7d994d79bf5dd380e3db51a947fc571c872c631331c18b",
+      "bytes": 15011792
+    },
+    "native/onnxruntime/x86_64/include/onnxruntime_c_api.h": {
+      "sha256": "3dec2d05c0fdddc02b131d207c30e8dc0dd9aa8a640f30249d32a52898c687c5",
+      "bytes": 198387
+    },
+    "SmartItemAssistant/entry/libs/arm64-v8a/libonnxruntime.so": {
+      "sha256": "f9fd9080a10f2b93323d597225fbaa63d06f93b384bdfdd7285db9a9115fcc2b",
+      "bytes": 12930856
+    },
+    "native/onnxruntime/arm64-v8a/include/onnxruntime_c_api.h": {
+      "sha256": "3dec2d05c0fdddc02b131d207c30e8dc0dd9aa8a640f30249d32a52898c687c5",
+      "bytes": 198387
+    }
+  },
+  "pythonPackages": {
+    "torch": "2.5.1+cpu",
+    "onnx": "1.17.0",
+    "onnxruntime": "1.20.1",
+    "numpy": "1.26.4",
+    "Pillow": "12.3.0",
+    "fastapi": "0.115.12",
+    "pydantic": "2.14.1",
+    "uvicorn": "0.34.2",
+    "PyJWT": "2.10.1",
+    "pytest": "8.3.5",
+    "httpx": "0.28.1"
+  },
+  "ohosRuntime": "1.16.3",
+  "note": "ultralytics source is pinned in models/manifest.json; installed distribution version alone does not identify the source commit."
+}

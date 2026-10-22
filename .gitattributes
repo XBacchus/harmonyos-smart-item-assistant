@@ -1,0 +1,7 @@
+* text=auto
+*.onnx binary
+*.so binary
+*.png binary
+*.jpg binary
+# Preserve vendor header bytes so the published SHA256 values stay reproducible.
+native/onnxruntime/**/include/*.h -text
